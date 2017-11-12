@@ -1,0 +1,48 @@
+
+/* Class = "UIButton"; normalTitle = "Log in"; ObjectID = "5uY-wP-c2U"; Note = "XFLD: Label to Log in."; */
+"5uY-wP-c2U.normalTitle" = "Log in";
+
+/* Class = "UITableViewController"; title = "Master"; ObjectID = "7bK-jq-Zjz"; Note = "NOTR: Do not translate it."; */
+"7bK-jq-Zjz.title" = "Master";
+
+/* Class = "UIBarButtonItem"; title = "Update"; ObjectID = "9uB-Ti-FOd"; Note = "XBUT: Text of Update button"; */
+"9uB-Ti-FOd.title" = "Update";
+
+/* Class = "UIViewController"; title = "SAMLAuthViewController"; ObjectID = "E15-q4-HAc"; Note = "NOTR: Do not translate it."; */
+"E15-q4-HAc.title" = "SAMLAuthViewController";
+
+/* Class = "UILabel"; text = "Logon"; ObjectID = "LOR-6n-czP"; Note = "XTIT: Title of log in screen."; */
+"LOR-6n-czP.text" = "Logon";
+
+/* Class = "UINavigationItem"; title = "Collections"; ObjectID = "PEH-PR-IZU"; Note = "XTIT: Title of Collections screen."; */
+"PEH-PR-IZU.title" = "Collections";
+
+/* Class = "UINavigationController"; title = "Master"; ObjectID = "RMx-3f-FxP"; Note = "NOTR: Do not translate it."; */
+"RMx-3f-FxP.title" = "Master";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "SIt-Wy-xUh"; Note = "NOTR: Do not translate it."; */
+"SIt-Wy-xUh.text" = "Title";
+
+/* Class = "UILabel"; text = "Password:"; ObjectID = "UFO-gY-62L"; Note = "XFLD: Label for password field."; */
+"UFO-gY-62L.text" = "Password:";
+
+/* Class = "UILabel"; text = "Please type in your username and password for authentication"; ObjectID = "W1b-oy-7eA"; Note = "XFLD: Label to describe for the user what to enter on the log on screen."; */
+"W1b-oy-7eA.text" = "Please type in your username and password for authentication";
+
+/* Class = "UILabel"; text = "Username:"; ObjectID = "boG-eV-TpJ"; Note = "XFLD: Label for username field."; */
+"boG-eV-TpJ.text" = "Username:";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "en2-zb-x2d"; Note = "NOTR: Do not translate it."; */
+"en2-zb-x2d.text" = "Detail";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "iYO-KY-hbS"; Note = "NOTR: Do not translate it."; */
+"iYO-KY-hbS.text" = "Title";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "r8v-4I-ntV"; Note = "NOTR: Do not translate it."; */
+"r8v-4I-ntV.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Detail"; ObjectID = "tqe-9E-U4T"; Note = "XTIT: Title of Details view."; */
+"tqe-9E-U4T.title" = "Detail";
+
+/* Class = "UIViewController"; title = "OAuthViewController"; ObjectID = "uxk-q5-EJh"; Note = "NOTR: Do not translate it."; */
+"uxk-q5-EJh.title" = "OAuthViewController";
