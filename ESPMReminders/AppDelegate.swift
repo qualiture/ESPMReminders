@@ -13,7 +13,7 @@ import UserNotifications
 import SAPOData
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate, OnboardingManagerDelegate, UNUserNotificationCenterDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, UINavigationControllerDelegate, OnboardingManagerDelegate, UNUserNotificationCenterDelegate {
 
     var window: UIWindow?
 
@@ -71,11 +71,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
 
     private func setRootViewController() {
         DispatchQueue.main.async {
-            let splitViewController = UIStoryboard(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "MainSplitViewController") as! UISplitViewController
-            splitViewController.delegate = self
-            splitViewController.modalPresentationStyle = .currentContext
-            splitViewController.preferredDisplayMode = .allVisible
-            self.window!.rootViewController = splitViewController
+            let navigationController = UIStoryboard(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "NavigationController") as! UINavigationController
+            navigationController.delegate = self
+            navigationController.modalPresentationStyle = .currentContext
+            self.window!.rootViewController = navigationController
         }
     }
 
