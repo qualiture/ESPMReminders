@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		067AA81CEEF18B6BB966363C /* MyPrefixProductTextsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319B1A436ACC11E016D8D4E7 /* MyPrefixProductTextsDetailViewController.swift */; };
+		0026FEB51FB85CC300C4855E /* CustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0026FEB41FB85CC300C4855E /* CustomerViewController.swift */; };
+		0026FEB71FBAFCED00C4855E /* CustomTheme.nss in Resources */ = {isa = PBXBuildFile; fileRef = 0026FEB61FBAFCED00C4855E /* CustomTheme.nss */; };
+		00DEF4231FBA372500D6DC4B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00DEF4251FBA372500D6DC4B /* Localizable.strings */; };
+		00DEF4281FBA372500D6DC4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00DEF42A1FBA372500D6DC4B /* InfoPlist.strings */; };
 		07F338D8D4F77AA861872279 /* MyPrefixSalesOrderHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EA5605A6BDD33DFEF45286 /* MyPrefixSalesOrderHeader.swift */; };
 		1277F7611F8E66AF0060AF58 /* SAPLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1277F7601F8E66AC0060AF58 /* SAPLogo@2x.png */; };
 		128604DA1E55B41600C698B5 /* SAPCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 128604D91E55B41600C698B5 /* SAPCommon.framework */; };
@@ -18,22 +21,11 @@
 		12E84FE31F4ECC4A0061C99E /* SAPFioriFlows.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E84FE21F4ECC3E0061C99E /* SAPFioriFlows.framework */; };
 		12E84FE41F4ECC4A0061C99E /* SAPFioriFlows.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 12E84FE21F4ECC3E0061C99E /* SAPFioriFlows.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		12E84FE51F4ECF220061C99E /* OnboardingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E84FDE1F4EBD460061C99E /* OnboardingManager.swift */; };
-		237D51B19DD7C225CF0205B5 /* MyPrefixStockMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195864D85AF4CC01A7143038 /* MyPrefixStockMasterViewController.swift */; };
-		256DC70B1253B5FAC14F9BB5 /* MyPrefixSalesOrderHeadersDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFB4E52E0B5B31526C64DA6 /* MyPrefixSalesOrderHeadersDetailViewController.swift */; };
 		2637848B920C66BB850D7039 /* MyPrefixStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1076A2CE3A48EA5C3FE36349 /* MyPrefixStock.swift */; };
-		3595632790DCC5B1613713E7 /* MyPrefixPurchaseOrderHeadersMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E63628427897CEAF8E84BC /* MyPrefixPurchaseOrderHeadersMasterViewController.swift */; };
-		38D8EF63BD5DAD9537071CB7 /* MyPrefixPurchaseOrderItemsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86C45FFBD2F3A14A2BE7F9 /* MyPrefixPurchaseOrderItemsDetailViewController.swift */; };
-		391A967A5649CDCDFB11C97A /* MyPrefixPurchaseOrderItems.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE56A764018E25E2CB103351 /* MyPrefixPurchaseOrderItems.storyboard */; };
 		3C8229513309DC26376CE6D3 /* MyPrefixPurchaseOrderHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0717659F33FB59DFAED5A450 /* MyPrefixPurchaseOrderHeader.swift */; };
-		41A1CDD0FB626B9D733E2977 /* MyPrefixStock.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A17CB406EE28E2791927646 /* MyPrefixStock.storyboard */; };
 		4EF0472C41B8979311E3C518 /* MyPrefixMyServiceClassFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87A7E83BB58CEE7A055500B /* MyPrefixMyServiceClassFactory.swift */; };
-		599F6A97A98DBA01A025F491 /* MyPrefixSuppliersDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40969B4BFC552C370804FA3 /* MyPrefixSuppliersDetailViewController.swift */; };
-		5C8B847B5EB5FEF959DADDD4 /* MyPrefixProductTextsMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0623993B39037F9E8A4DB877 /* MyPrefixProductTextsMasterViewController.swift */; };
-		695741036CA8B36FE56CEB0A /* MyPrefixSalesOrderItems.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938B394A9579BA6B3E1071CB /* MyPrefixSalesOrderItems.storyboard */; };
 		6C06938CDEFBEC2B3825B2F2 /* MyPrefixSalesOrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A44733187432554FFB05BB /* MyPrefixSalesOrderItem.swift */; };
 		6C63CA7D115F55F4E2313323 /* MyPrefixProductCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E02303F698FF1C31D711B1 /* MyPrefixProductCategory.swift */; };
-		6CE326EC40338DF7638B58EB /* MyPrefixProducts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 088A5E612CDA314236F64622 /* MyPrefixProducts.storyboard */; };
-		702AB525AFA2AEF3CBFBD3E0 /* MyPrefixSalesOrderHeaders.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ACCE98A6250560394F97805 /* MyPrefixSalesOrderHeaders.storyboard */; };
 		755533981F25FD330017A1BC /* SAPOfflineOData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755533971F25FD2A0017A1BC /* SAPOfflineOData.framework */; };
 		755533991F25FD330017A1BC /* SAPOfflineOData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 755533971F25FD2A0017A1BC /* SAPOfflineOData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		756192211DBE1A99007F562C /* SAPOData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7561921A1DBE1A90007F562C /* SAPOData.framework */; };
@@ -42,41 +34,22 @@
 		7569DA541E5C717C00C5D751 /* SAPFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7569DA511E5C716A00C5D751 /* SAPFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		759BA2701E6821A7001C32BA /* SAPFiori.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759BA26F1E6821A7001C32BA /* SAPFiori.framework */; };
 		759BA2721E6821AF001C32BA /* SAPFiori.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 759BA26F1E6821A7001C32BA /* SAPFiori.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		75AC42D41DAF824D00B445FF /* CollectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AC42CE1DAF824D00B445FF /* CollectionsViewController.swift */; };
-		7718F9D77B0E4AE73319794C /* MyPrefixPurchaseOrderHeaders.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B3409E967B9335258A46FE /* MyPrefixPurchaseOrderHeaders.storyboard */; };
 		7A1315B91D4B982000A5DA56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1315B81D4B982000A5DA56 /* AppDelegate.swift */; };
 		7A1315C21D4B982000A5DA56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A1315C11D4B982000A5DA56 /* Assets.xcassets */; };
 		7A1315C51D4B982000A5DA56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A1315C31D4B982000A5DA56 /* LaunchScreen.storyboard */; };
 		7A26CA1C1F31BA8800B156B6 /* CellCreationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26CA1B1F31BA8800B156B6 /* CellCreationHelper.swift */; };
 		7A9F6FF61F3883D3000A1815 /* SAPFioriLoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F6FF51F3883D3000A1815 /* SAPFioriLoadingIndicator.swift */; };
-		7B613F06079B10505AD9BEF7 /* MyPrefixProductsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8940EF86D28DF614F0EB596 /* MyPrefixProductsDetailViewController.swift */; };
-		812AD998CFF595CDF4EF3677 /* MyPrefixProductsMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D20E67F2DC9F7E4FE0BC8DA /* MyPrefixProductsMasterViewController.swift */; };
-		873F461CBB3C4EAA5C54BFF5 /* MyPrefixProductTexts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA4140A438FAA27A2840440 /* MyPrefixProductTexts.storyboard */; };
-		8963964763F4C2CA6948A37E /* MyPrefixProductCategoriesMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79243484C51D6E96DC907A57 /* MyPrefixProductCategoriesMasterViewController.swift */; };
 		900F908216554990042F1D0E /* MyPrefixMyServiceClassMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D0D0EF37CF626B69C17A52 /* MyPrefixMyServiceClassMetadata.swift */; };
-		90CF3A9245B81231619EA832 /* MyPrefixPurchaseOrderHeadersDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80926339E8EF5DA13B910A66 /* MyPrefixPurchaseOrderHeadersDetailViewController.swift */; };
-		940367E76718D25E850EA5F9 /* MyPrefixSalesOrderItemsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8698ACB43DD43FE5BE87C8C /* MyPrefixSalesOrderItemsDetailViewController.swift */; };
 		9C5F057BC78D9550A97F98D5 /* MyPrefixMyServiceClassMetadataText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DEDE357E8D514BD003C23A /* MyPrefixMyServiceClassMetadataText.swift */; };
-		A331F336946B38E2FE6A4DEF /* MyPrefixStockDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808BF4579C54943610A0C42 /* MyPrefixStockDetailViewController.swift */; };
-		A42769AEDFF676C87BACB556 /* MyPrefixProductCategories.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B8D94F243AD7CA8F1705969 /* MyPrefixProductCategories.storyboard */; };
 		ABBD013038205FE2FE7189A4 /* MyPrefixProductText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C6496429C2226983854123 /* MyPrefixProductText.swift */; };
-		ACA361DC51BEA438AF8A711E /* MyPrefixCustomersMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4FF18AE881110B9161DC86 /* MyPrefixCustomersMasterViewController.swift */; };
-		B32374126A2208C3BDECC909 /* MyPrefixSuppliersMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DDA4B36633402117977B4B /* MyPrefixSuppliersMasterViewController.swift */; };
 		B4CE734FF525BB40EB782B90 /* MyPrefixPurchaseOrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E28827C95BAE73A6C76ABAD /* MyPrefixPurchaseOrderItem.swift */; };
 		C0C54811386808B353FE753F /* MyPrefixProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = C347F7ADA834D588442B6B87 /* MyPrefixProduct.swift */; };
-		C158A588FFA22BFDFCAA30E9 /* MyPrefixPurchaseOrderItemsMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57B2FAB1B3F46BD8D541038 /* MyPrefixPurchaseOrderItemsMasterViewController.swift */; };
 		C53B7DCF35192F8481F09280 /* MyPrefixSupplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F064376DDB0CDF208C6DE0 /* MyPrefixSupplier.swift */; };
-		CA61AC286840A1B25BC3B121 /* MyPrefixSalesOrderHeadersMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36358C87EE0A83EDB99FE49D /* MyPrefixSalesOrderHeadersMasterViewController.swift */; };
 		CB30DA0F8F495182DE13BDA6 /* MyPrefixMyServiceClassMetadataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD4A2E713A17F0ED858E70 /* MyPrefixMyServiceClassMetadataParser.swift */; };
 		CBCA7A991E3778A9001AF49E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCA7A9B1E3778A9001AF49E /* Main.storyboard */; };
 		CC3CB79ABF5AC568CD56DE0F /* MyPrefixMyServiceClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5EABC6114D64160049C8E7 /* MyPrefixMyServiceClass.swift */; };
-		D300505D07F7701BEE903C4E /* MyPrefixCustomers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A243E41C95DF6C9E275D649 /* MyPrefixCustomers.storyboard */; };
 		D8D735A4A9B23C106485A0BE /* MyPrefixMyServiceClassMetadataChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB34443F7775E767E246F60D /* MyPrefixMyServiceClassMetadataChanges.swift */; };
 		E20AA550670D212697F7F49C /* MyPrefixCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5421CE12BAF2E361142F3016 /* MyPrefixCustomer.swift */; };
-		E517FDCFDC691314B0973899 /* MyPrefixProductCategoriesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9813F233F5722C8F2020FC18 /* MyPrefixProductCategoriesDetailViewController.swift */; };
-		EE85D24527D7D4381A7B9E07 /* MyPrefixCustomersDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13968DE73289CD789C510CD8 /* MyPrefixCustomersDetailViewController.swift */; };
-		F0077FCEBA2D984F8CD884FD /* MyPrefixSalesOrderItemsMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CABDF011F4EAF275F4DCA4 /* MyPrefixSalesOrderItemsMasterViewController.swift */; };
-		F0702EDAF08204C2DC2A956E /* MyPrefixSuppliers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2501D7A1E6D88E7B471FDC0E /* MyPrefixSuppliers.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -99,9 +72,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0623993B39037F9E8A4DB877 /* MyPrefixProductTextsMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixProductTextsMasterViewController.swift; path = MyPrefixProductTexts/MyPrefixProductTextsMasterViewController.swift; sourceTree = "<group>"; };
+		0026FEB41FB85CC300C4855E /* CustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerViewController.swift; sourceTree = "<group>"; };
+		0026FEB61FBAFCED00C4855E /* CustomTheme.nss */ = {isa = PBXFileReference; lastKnownFileType = text; path = CustomTheme.nss; sourceTree = "<group>"; };
+		00DEF4241FBA372500D6DC4B /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		00DEF4291FBA372500D6DC4B /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00DEF42B1FBA372500D6DC4B /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		00DEF42C1FBA372500D6DC4B /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		00E92B271FBA372600199284 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		00E92B281FBA372700199284 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00E92B291FBA372700199284 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Main.strings; sourceTree = "<group>"; };
+		00E92B2A1FBA372700199284 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		0717659F33FB59DFAED5A450 /* MyPrefixPurchaseOrderHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixPurchaseOrderHeader.swift; path = "Proxy Classes/com.sap.tutorials.demoapp.ESPMReminders/public/MyPrefixPurchaseOrderHeader.swift"; sourceTree = "<group>"; };
-		0875FAAD0B8835195150ACAC /* Base */ = {isa = PBXFileReference; includeInIndex = ""; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MyPrefixProductCategories.storyboard; sourceTree = "<group>"; };
 		1076A2CE3A48EA5C3FE36349 /* MyPrefixStock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixStock.swift; path = "Proxy Classes/com.sap.tutorials.demoapp.ESPMReminders/public/MyPrefixStock.swift"; sourceTree = "<group>"; };
 		1277F7601F8E66AC0060AF58 /* SAPLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SAPLogo@2x.png"; sourceTree = "<group>"; };
 		128604D91E55B41600C698B5 /* SAPCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPCommon.framework; sourceTree = "<group>"; };
@@ -110,28 +91,15 @@
 		12E07EF11E96851800460A94 /* CollectionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionType.swift; sourceTree = "<group>"; };
 		12E84FDE1F4EBD460061C99E /* OnboardingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingManager.swift; sourceTree = "<group>"; };
 		12E84FE21F4ECC3E0061C99E /* SAPFioriFlows.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPFioriFlows.framework; sourceTree = "<group>"; };
-		13968DE73289CD789C510CD8 /* MyPrefixCustomersDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixCustomersDetailViewController.swift; path = MyPrefixCustomers/MyPrefixCustomersDetailViewController.swift; sourceTree = "<group>"; };
 		15E02303F698FF1C31D711B1 /* MyPrefixProductCategory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixProductCategory.swift; path = "Proxy Classes/com.sap.tutorials.demoapp.ESPMReminders/public/MyPrefixProductCategory.swift"; sourceTree = "<group>"; };
-		1808BF4579C54943610A0C42 /* MyPrefixStockDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixStockDetailViewController.swift; path = MyPrefixStock/MyPrefixStockDetailViewController.swift; sourceTree = "<group>"; };
-		195864D85AF4CC01A7143038 /* MyPrefixStockMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixStockMasterViewController.swift; path = MyPrefixStock/MyPrefixStockMasterViewController.swift; sourceTree = "<group>"; };
-		235256D0341CAEE975CDB6D6 /* Base */ = {isa = PBXFileReference; includeInIndex = ""; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MyPrefixStock.storyboard; sourceTree = "<group>"; };
 		28A44733187432554FFB05BB /* MyPrefixSalesOrderItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixSalesOrderItem.swift; path = "Proxy Classes/com.sap.tutorials.demoapp.ESPMReminders/public/MyPrefixSalesOrderItem.swift"; sourceTree = "<group>"; };
 		29DEDE357E8D514BD003C23A /* MyPrefixMyServiceClassMetadataText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixMyServiceClassMetadataText.swift; path = "Proxy Classes/com.sap.tutorials.demoapp.ESPMReminders/internal/MyPrefixMyServiceClassMetadataText.swift"; sourceTree = "<group>"; };
-		319B1A436ACC11E016D8D4E7 /* MyPrefixProductTextsDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixProductTextsDetailViewController.swift; path = MyPrefixProductTexts/MyPrefixProductTextsDetailViewController.swift; sourceTree = "<group>"; };
-		36358C87EE0A83EDB99FE49D /* MyPrefixSalesOrderHeadersMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixSalesOrderHeadersMasterViewController.swift; path = MyPrefixSalesOrderHeaders/MyPrefixSalesOrderHeadersMasterViewController.swift; sourceTree = "<group>"; };
 		5421CE12BAF2E361142F3016 /* MyPrefixCustomer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixCustomer.swift; path = "Proxy Classes/com.sap.tutorials.demoapp.ESPMReminders/public/MyPrefixCustomer.swift"; sourceTree = "<group>"; };
 		64F064376DDB0CDF208C6DE0 /* MyPrefixSupplier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixSupplier.swift; path = "Proxy Classes/com.sap.tutorials.demoapp.ESPMReminders/public/MyPrefixSupplier.swift"; sourceTree = "<group>"; };
-		67D2B106AD55DD179F18406E /* Base */ = {isa = PBXFileReference; includeInIndex = ""; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MyPrefixSalesOrderHeaders.storyboard; sourceTree = "<group>"; };
-		6D20E67F2DC9F7E4FE0BC8DA /* MyPrefixProductsMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixProductsMasterViewController.swift; path = MyPrefixProducts/MyPrefixProductsMasterViewController.swift; sourceTree = "<group>"; };
-		6F26E7B24451639050E84559 /* Base */ = {isa = PBXFileReference; includeInIndex = ""; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MyPrefixPurchaseOrderItems.storyboard; sourceTree = "<group>"; };
 		755533971F25FD2A0017A1BC /* SAPOfflineOData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPOfflineOData.framework; sourceTree = "<group>"; };
 		7561921A1DBE1A90007F562C /* SAPOData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPOData.framework; sourceTree = "<group>"; };
 		7569DA511E5C716A00C5D751 /* SAPFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPFoundation.framework; sourceTree = "<group>"; };
 		759BA26F1E6821A7001C32BA /* SAPFiori.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPFiori.framework; sourceTree = "<group>"; };
-		75AC42CE1DAF824D00B445FF /* CollectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionsViewController.swift; sourceTree = "<group>"; };
-		76DDA4B36633402117977B4B /* MyPrefixSuppliersMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixSuppliersMasterViewController.swift; path = MyPrefixSuppliers/MyPrefixSuppliersMasterViewController.swift; sourceTree = "<group>"; };
-		771A5E37240C4A8A4709853F /* Base */ = {isa = PBXFileReference; includeInIndex = ""; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MyPrefixPurchaseOrderHeaders.storyboard; sourceTree = "<group>"; };
-		79243484C51D6E96DC907A57 /* MyPrefixProductCategoriesMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixProductCategoriesMasterViewController.swift; path = MyPrefixProductCategories/MyPrefixProductCategoriesMasterViewController.swift; sourceTree = "<group>"; };
 		7A1315B51D4B982000A5DA56 /* ESPMReminders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESPMReminders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A1315B81D4B982000A5DA56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A1315C11D4B982000A5DA56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -139,33 +107,17 @@
 		7A1315C61D4B982000A5DA56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A26CA1B1F31BA8800B156B6 /* CellCreationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellCreationHelper.swift; sourceTree = "<group>"; };
 		7A9F6FF51F3883D3000A1815 /* SAPFioriLoadingIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAPFioriLoadingIndicator.swift; sourceTree = "<group>"; };
-		80926339E8EF5DA13B910A66 /* MyPrefixPurchaseOrderHeadersDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixPurchaseOrderHeadersDetailViewController.swift; path = MyPrefixPurchaseOrderHeaders/MyPrefixPurchaseOrderHeadersDetailViewController.swift; sourceTree = "<group>"; };
-		89E63628427897CEAF8E84BC /* MyPrefixPurchaseOrderHeadersMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixPurchaseOrderHeadersMasterViewController.swift; path = MyPrefixPurchaseOrderHeaders/MyPrefixPurchaseOrderHeadersMasterViewController.swift; sourceTree = "<group>"; };
 		8E28827C95BAE73A6C76ABAD /* MyPrefixPurchaseOrderItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixPurchaseOrderItem.swift; path = "Proxy Classes/com.sap.tutorials.demoapp.ESPMReminders/public/MyPrefixPurchaseOrderItem.swift"; sourceTree = "<group>"; };
-		8FB36CFCF40F070CCA005605 /* Base */ = {isa = PBXFileReference; includeInIndex = ""; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MyPrefixProductTexts.storyboard; sourceTree = "<group>"; };
-		9813F233F5722C8F2020FC18 /* MyPrefixProductCategoriesDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixProductCategoriesDetailViewController.swift; path = MyPrefixProductCategories/MyPrefixProductCategoriesDetailViewController.swift; sourceTree = "<group>"; };
-		A57B2FAB1B3F46BD8D541038 /* MyPrefixPurchaseOrderItemsMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixPurchaseOrderItemsMasterViewController.swift; path = MyPrefixPurchaseOrderItems/MyPrefixPurchaseOrderItemsMasterViewController.swift; sourceTree = "<group>"; };
-		A8940EF86D28DF614F0EB596 /* MyPrefixProductsDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixProductsDetailViewController.swift; path = MyPrefixProducts/MyPrefixProductsDetailViewController.swift; sourceTree = "<group>"; };
 		A8D0D0EF37CF626B69C17A52 /* MyPrefixMyServiceClassMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixMyServiceClassMetadata.swift; path = "Proxy Classes/com.sap.tutorials.demoapp.ESPMReminders/public/MyPrefixMyServiceClassMetadata.swift"; sourceTree = "<group>"; };
 		AB5EABC6114D64160049C8E7 /* MyPrefixMyServiceClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixMyServiceClass.swift; path = "Proxy Classes/com.sap.tutorials.demoapp.ESPMReminders/public/MyPrefixMyServiceClass.swift"; sourceTree = "<group>"; };
 		B2C6496429C2226983854123 /* MyPrefixProductText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixProductText.swift; path = "Proxy Classes/com.sap.tutorials.demoapp.ESPMReminders/public/MyPrefixProductText.swift"; sourceTree = "<group>"; };
 		B87A7E83BB58CEE7A055500B /* MyPrefixMyServiceClassFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixMyServiceClassFactory.swift; path = "Proxy Classes/com.sap.tutorials.demoapp.ESPMReminders/internal/MyPrefixMyServiceClassFactory.swift"; sourceTree = "<group>"; };
 		B9DD4A2E713A17F0ED858E70 /* MyPrefixMyServiceClassMetadataParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixMyServiceClassMetadataParser.swift; path = "Proxy Classes/com.sap.tutorials.demoapp.ESPMReminders/internal/MyPrefixMyServiceClassMetadataParser.swift"; sourceTree = "<group>"; };
-		BD31663FDE7B0D06F3E23131 /* Base */ = {isa = PBXFileReference; includeInIndex = ""; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MyPrefixSuppliers.storyboard; sourceTree = "<group>"; };
-		BDFB4E52E0B5B31526C64DA6 /* MyPrefixSalesOrderHeadersDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixSalesOrderHeadersDetailViewController.swift; path = MyPrefixSalesOrderHeaders/MyPrefixSalesOrderHeadersDetailViewController.swift; sourceTree = "<group>"; };
 		C347F7ADA834D588442B6B87 /* MyPrefixProduct.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixProduct.swift; path = "Proxy Classes/com.sap.tutorials.demoapp.ESPMReminders/public/MyPrefixProduct.swift"; sourceTree = "<group>"; };
-		C8D2DC7136AFCEF5ABBB0012 /* Base */ = {isa = PBXFileReference; includeInIndex = ""; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MyPrefixCustomers.storyboard; sourceTree = "<group>"; };
 		CB909D801E38CA8800218154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB9BF1FE1E3A01D0004FE213 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
-		CC86C45FFBD2F3A14A2BE7F9 /* MyPrefixPurchaseOrderItemsDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixPurchaseOrderItemsDetailViewController.swift; path = MyPrefixPurchaseOrderItems/MyPrefixPurchaseOrderItemsDetailViewController.swift; sourceTree = "<group>"; };
-		D40969B4BFC552C370804FA3 /* MyPrefixSuppliersDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixSuppliersDetailViewController.swift; path = MyPrefixSuppliers/MyPrefixSuppliersDetailViewController.swift; sourceTree = "<group>"; };
 		DB34443F7775E767E246F60D /* MyPrefixMyServiceClassMetadataChanges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixMyServiceClassMetadataChanges.swift; path = "Proxy Classes/com.sap.tutorials.demoapp.ESPMReminders/internal/MyPrefixMyServiceClassMetadataChanges.swift"; sourceTree = "<group>"; };
-		E8698ACB43DD43FE5BE87C8C /* MyPrefixSalesOrderItemsDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixSalesOrderItemsDetailViewController.swift; path = MyPrefixSalesOrderItems/MyPrefixSalesOrderItemsDetailViewController.swift; sourceTree = "<group>"; };
-		F4CABDF011F4EAF275F4DCA4 /* MyPrefixSalesOrderItemsMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixSalesOrderItemsMasterViewController.swift; path = MyPrefixSalesOrderItems/MyPrefixSalesOrderItemsMasterViewController.swift; sourceTree = "<group>"; };
-		F57CE247BCC65FEF3D534795 /* Base */ = {isa = PBXFileReference; includeInIndex = ""; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MyPrefixSalesOrderItems.storyboard; sourceTree = "<group>"; };
 		F5EA5605A6BDD33DFEF45286 /* MyPrefixSalesOrderHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixSalesOrderHeader.swift; path = "Proxy Classes/com.sap.tutorials.demoapp.ESPMReminders/public/MyPrefixSalesOrderHeader.swift"; sourceTree = "<group>"; };
-		F96BEA1D00F4BBF810151326 /* Base */ = {isa = PBXFileReference; includeInIndex = ""; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MyPrefixProducts.storyboard; sourceTree = "<group>"; };
-		FA4FF18AE881110B9161DC86 /* MyPrefixCustomersMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyPrefixCustomersMasterViewController.swift; path = MyPrefixCustomers/MyPrefixCustomersMasterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,16 +146,6 @@
 			name = Onboarding;
 			sourceTree = "<group>";
 		};
-		2622EE5E47F559E6E25891AF /* MyPrefixSalesOrderHeaders */ = {
-			isa = PBXGroup;
-			children = (
-				9ACCE98A6250560394F97805 /* MyPrefixSalesOrderHeaders.storyboard */,
-				36358C87EE0A83EDB99FE49D /* MyPrefixSalesOrderHeadersMasterViewController.swift */,
-				BDFB4E52E0B5B31526C64DA6 /* MyPrefixSalesOrderHeadersDetailViewController.swift */,
-			);
-			name = MyPrefixSalesOrderHeaders;
-			sourceTree = "<group>";
-		};
 		2A232E28D223574D7B24D544 /* internal */ = {
 			isa = PBXGroup;
 			children = (
@@ -213,16 +155,6 @@
 				DB34443F7775E767E246F60D /* MyPrefixMyServiceClassMetadataChanges.swift */,
 			);
 			name = internal;
-			sourceTree = "<group>";
-		};
-		475BC35FCA0ABFEE2788DB80 /* MyPrefixPurchaseOrderItems */ = {
-			isa = PBXGroup;
-			children = (
-				BE56A764018E25E2CB103351 /* MyPrefixPurchaseOrderItems.storyboard */,
-				A57B2FAB1B3F46BD8D541038 /* MyPrefixPurchaseOrderItemsMasterViewController.swift */,
-				CC86C45FFBD2F3A14A2BE7F9 /* MyPrefixPurchaseOrderItemsDetailViewController.swift */,
-			);
-			name = MyPrefixPurchaseOrderItems;
 			sourceTree = "<group>";
 		};
 		579ACFF5BC854DE352A408E8 /* public */ = {
@@ -242,26 +174,6 @@
 				B2C6496429C2226983854123 /* MyPrefixProductText.swift */,
 			);
 			name = public;
-			sourceTree = "<group>";
-		};
-		5ADA89D0872F55E36AD818A9 /* MyPrefixProductTexts */ = {
-			isa = PBXGroup;
-			children = (
-				FCA4140A438FAA27A2840440 /* MyPrefixProductTexts.storyboard */,
-				0623993B39037F9E8A4DB877 /* MyPrefixProductTextsMasterViewController.swift */,
-				319B1A436ACC11E016D8D4E7 /* MyPrefixProductTextsDetailViewController.swift */,
-			);
-			name = MyPrefixProductTexts;
-			sourceTree = "<group>";
-		};
-		7059ABD6341FCA107BDC4BA9 /* MyPrefixStock */ = {
-			isa = PBXGroup;
-			children = (
-				4A17CB406EE28E2791927646 /* MyPrefixStock.storyboard */,
-				195864D85AF4CC01A7143038 /* MyPrefixStockMasterViewController.swift */,
-				1808BF4579C54943610A0C42 /* MyPrefixStockDetailViewController.swift */,
-			);
-			name = MyPrefixStock;
 			sourceTree = "<group>";
 		};
 		7532C1BB1D5B6917004B03AF /* Model */ = {
@@ -284,18 +196,8 @@
 		75AC42C81DAF80C000B445FF /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				75AC42CE1DAF824D00B445FF /* CollectionsViewController.swift */,
 				128B53051F8E667000E64DF6 /* SnapshotViewController.swift */,
-				DAB2FBDA3851C682C1076B7A /* MyPrefixCustomers */,
-				EB91BA163415BA516B232983 /* MyPrefixPurchaseOrderHeaders */,
-				7059ABD6341FCA107BDC4BA9 /* MyPrefixStock */,
-				5ADA89D0872F55E36AD818A9 /* MyPrefixProductTexts */,
-				A45A5D692C5CF0BC638546F0 /* MyPrefixSalesOrderItems */,
-				B61115B857221FA3F30A0EA0 /* MyPrefixProductCategories */,
-				2622EE5E47F559E6E25891AF /* MyPrefixSalesOrderHeaders */,
-				BFE3AD5984BA9EBFE64F12EA /* MyPrefixProducts */,
-				C7250B00B61EAEB6E1A683CC /* MyPrefixSuppliers */,
-				475BC35FCA0ABFEE2788DB80 /* MyPrefixPurchaseOrderItems */,
+				0026FEB41FB85CC300C4855E /* CustomerViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -329,6 +231,8 @@
 		7A1315B71D4B982000A5DA56 /* ESPMReminders */ = {
 			isa = PBXGroup;
 			children = (
+				00DEF42A1FBA372500D6DC4B /* InfoPlist.strings */,
+				00DEF4251FBA372500D6DC4B /* Localizable.strings */,
 				12D066CB1F4DDAE40075EBA4 /* Onboarding */,
 				7532C1BB1D5B6917004B03AF /* Model */,
 				75AC42C81DAF80C000B445FF /* ViewControllers */,
@@ -340,6 +244,7 @@
 				7A1315C31D4B982000A5DA56 /* LaunchScreen.storyboard */,
 				1277F7601F8E66AC0060AF58 /* SAPLogo@2x.png */,
 				7A1315C61D4B982000A5DA56 /* Info.plist */,
+				0026FEB61FBAFCED00C4855E /* CustomTheme.nss */,
 			);
 			path = ESPMReminders;
 			sourceTree = "<group>";
@@ -355,66 +260,6 @@
 				128604D91E55B41600C698B5 /* SAPCommon.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A45A5D692C5CF0BC638546F0 /* MyPrefixSalesOrderItems */ = {
-			isa = PBXGroup;
-			children = (
-				938B394A9579BA6B3E1071CB /* MyPrefixSalesOrderItems.storyboard */,
-				F4CABDF011F4EAF275F4DCA4 /* MyPrefixSalesOrderItemsMasterViewController.swift */,
-				E8698ACB43DD43FE5BE87C8C /* MyPrefixSalesOrderItemsDetailViewController.swift */,
-			);
-			name = MyPrefixSalesOrderItems;
-			sourceTree = "<group>";
-		};
-		B61115B857221FA3F30A0EA0 /* MyPrefixProductCategories */ = {
-			isa = PBXGroup;
-			children = (
-				2B8D94F243AD7CA8F1705969 /* MyPrefixProductCategories.storyboard */,
-				79243484C51D6E96DC907A57 /* MyPrefixProductCategoriesMasterViewController.swift */,
-				9813F233F5722C8F2020FC18 /* MyPrefixProductCategoriesDetailViewController.swift */,
-			);
-			name = MyPrefixProductCategories;
-			sourceTree = "<group>";
-		};
-		BFE3AD5984BA9EBFE64F12EA /* MyPrefixProducts */ = {
-			isa = PBXGroup;
-			children = (
-				088A5E612CDA314236F64622 /* MyPrefixProducts.storyboard */,
-				6D20E67F2DC9F7E4FE0BC8DA /* MyPrefixProductsMasterViewController.swift */,
-				A8940EF86D28DF614F0EB596 /* MyPrefixProductsDetailViewController.swift */,
-			);
-			name = MyPrefixProducts;
-			sourceTree = "<group>";
-		};
-		C7250B00B61EAEB6E1A683CC /* MyPrefixSuppliers */ = {
-			isa = PBXGroup;
-			children = (
-				2501D7A1E6D88E7B471FDC0E /* MyPrefixSuppliers.storyboard */,
-				76DDA4B36633402117977B4B /* MyPrefixSuppliersMasterViewController.swift */,
-				D40969B4BFC552C370804FA3 /* MyPrefixSuppliersDetailViewController.swift */,
-			);
-			name = MyPrefixSuppliers;
-			sourceTree = "<group>";
-		};
-		DAB2FBDA3851C682C1076B7A /* MyPrefixCustomers */ = {
-			isa = PBXGroup;
-			children = (
-				7A243E41C95DF6C9E275D649 /* MyPrefixCustomers.storyboard */,
-				FA4FF18AE881110B9161DC86 /* MyPrefixCustomersMasterViewController.swift */,
-				13968DE73289CD789C510CD8 /* MyPrefixCustomersDetailViewController.swift */,
-			);
-			name = MyPrefixCustomers;
-			sourceTree = "<group>";
-		};
-		EB91BA163415BA516B232983 /* MyPrefixPurchaseOrderHeaders */ = {
-			isa = PBXGroup;
-			children = (
-				68B3409E967B9335258A46FE /* MyPrefixPurchaseOrderHeaders.storyboard */,
-				89E63628427897CEAF8E84BC /* MyPrefixPurchaseOrderHeadersMasterViewController.swift */,
-				80926339E8EF5DA13B910A66 /* MyPrefixPurchaseOrderHeadersDetailViewController.swift */,
-			);
-			name = MyPrefixPurchaseOrderHeaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -450,6 +295,7 @@
 				TargetAttributes = {
 					7A1315B41D4B982000A5DA56 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2L6XVDFSLV;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
@@ -479,20 +325,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A1315C51D4B982000A5DA56 /* LaunchScreen.storyboard in Resources */,
+				00DEF4281FBA372500D6DC4B /* InfoPlist.strings in Resources */,
+				00DEF4231FBA372500D6DC4B /* Localizable.strings in Resources */,
 				12D066CF1F4DDB0E0075EBA4 /* ConfigurationProvider.plist in Resources */,
 				7A1315C21D4B982000A5DA56 /* Assets.xcassets in Resources */,
 				CBCA7A991E3778A9001AF49E /* Main.storyboard in Resources */,
 				1277F7611F8E66AF0060AF58 /* SAPLogo@2x.png in Resources */,
-				D300505D07F7701BEE903C4E /* MyPrefixCustomers.storyboard in Resources */,
-				7718F9D77B0E4AE73319794C /* MyPrefixPurchaseOrderHeaders.storyboard in Resources */,
-				41A1CDD0FB626B9D733E2977 /* MyPrefixStock.storyboard in Resources */,
-				873F461CBB3C4EAA5C54BFF5 /* MyPrefixProductTexts.storyboard in Resources */,
-				695741036CA8B36FE56CEB0A /* MyPrefixSalesOrderItems.storyboard in Resources */,
-				A42769AEDFF676C87BACB556 /* MyPrefixProductCategories.storyboard in Resources */,
-				702AB525AFA2AEF3CBFBD3E0 /* MyPrefixSalesOrderHeaders.storyboard in Resources */,
-				6CE326EC40338DF7638B58EB /* MyPrefixProducts.storyboard in Resources */,
-				F0702EDAF08204C2DC2A956E /* MyPrefixSuppliers.storyboard in Resources */,
-				391A967A5649CDCDFB11C97A /* MyPrefixPurchaseOrderItems.storyboard in Resources */,
+				0026FEB71FBAFCED00C4855E /* CustomTheme.nss in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,7 +347,6 @@
 				7A9F6FF61F3883D3000A1815 /* SAPFioriLoadingIndicator.swift in Sources */,
 				7A26CA1C1F31BA8800B156B6 /* CellCreationHelper.swift in Sources */,
 				12E07EF21E96851800460A94 /* CollectionType.swift in Sources */,
-				75AC42D41DAF824D00B445FF /* CollectionsViewController.swift in Sources */,
 				7A1315B91D4B982000A5DA56 /* AppDelegate.swift in Sources */,
 				9C5F057BC78D9550A97F98D5 /* MyPrefixMyServiceClassMetadataText.swift in Sources */,
 				4EF0472C41B8979311E3C518 /* MyPrefixMyServiceClassFactory.swift in Sources */,
@@ -520,125 +358,45 @@
 				C0C54811386808B353FE753F /* MyPrefixProduct.swift in Sources */,
 				900F908216554990042F1D0E /* MyPrefixMyServiceClassMetadata.swift in Sources */,
 				2637848B920C66BB850D7039 /* MyPrefixStock.swift in Sources */,
+				0026FEB51FB85CC300C4855E /* CustomerViewController.swift in Sources */,
 				6C63CA7D115F55F4E2313323 /* MyPrefixProductCategory.swift in Sources */,
 				CC3CB79ABF5AC568CD56DE0F /* MyPrefixMyServiceClass.swift in Sources */,
 				C53B7DCF35192F8481F09280 /* MyPrefixSupplier.swift in Sources */,
 				3C8229513309DC26376CE6D3 /* MyPrefixPurchaseOrderHeader.swift in Sources */,
 				6C06938CDEFBEC2B3825B2F2 /* MyPrefixSalesOrderItem.swift in Sources */,
 				ABBD013038205FE2FE7189A4 /* MyPrefixProductText.swift in Sources */,
-				ACA361DC51BEA438AF8A711E /* MyPrefixCustomersMasterViewController.swift in Sources */,
-				EE85D24527D7D4381A7B9E07 /* MyPrefixCustomersDetailViewController.swift in Sources */,
-				3595632790DCC5B1613713E7 /* MyPrefixPurchaseOrderHeadersMasterViewController.swift in Sources */,
-				90CF3A9245B81231619EA832 /* MyPrefixPurchaseOrderHeadersDetailViewController.swift in Sources */,
-				237D51B19DD7C225CF0205B5 /* MyPrefixStockMasterViewController.swift in Sources */,
-				A331F336946B38E2FE6A4DEF /* MyPrefixStockDetailViewController.swift in Sources */,
-				5C8B847B5EB5FEF959DADDD4 /* MyPrefixProductTextsMasterViewController.swift in Sources */,
-				067AA81CEEF18B6BB966363C /* MyPrefixProductTextsDetailViewController.swift in Sources */,
-				F0077FCEBA2D984F8CD884FD /* MyPrefixSalesOrderItemsMasterViewController.swift in Sources */,
-				940367E76718D25E850EA5F9 /* MyPrefixSalesOrderItemsDetailViewController.swift in Sources */,
-				8963964763F4C2CA6948A37E /* MyPrefixProductCategoriesMasterViewController.swift in Sources */,
-				E517FDCFDC691314B0973899 /* MyPrefixProductCategoriesDetailViewController.swift in Sources */,
-				CA61AC286840A1B25BC3B121 /* MyPrefixSalesOrderHeadersMasterViewController.swift in Sources */,
-				256DC70B1253B5FAC14F9BB5 /* MyPrefixSalesOrderHeadersDetailViewController.swift in Sources */,
-				812AD998CFF595CDF4EF3677 /* MyPrefixProductsMasterViewController.swift in Sources */,
-				7B613F06079B10505AD9BEF7 /* MyPrefixProductsDetailViewController.swift in Sources */,
-				B32374126A2208C3BDECC909 /* MyPrefixSuppliersMasterViewController.swift in Sources */,
-				599F6A97A98DBA01A025F491 /* MyPrefixSuppliersDetailViewController.swift in Sources */,
-				C158A588FFA22BFDFCAA30E9 /* MyPrefixPurchaseOrderItemsMasterViewController.swift in Sources */,
-				38D8EF63BD5DAD9537071CB7 /* MyPrefixPurchaseOrderItemsDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		088A5E612CDA314236F64622 /* MyPrefixProducts.storyboard */ = {
+		00DEF4251FBA372500D6DC4B /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F96BEA1D00F4BBF810151326 /* Base */,
+				00DEF4241FBA372500D6DC4B /* de */,
+				00E92B271FBA372600199284 /* nl */,
 			);
-			name = MyPrefixProducts.storyboard;
-			path = MyPrefixProducts;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
-		2501D7A1E6D88E7B471FDC0E /* MyPrefixSuppliers.storyboard */ = {
+		00DEF42A1FBA372500D6DC4B /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BD31663FDE7B0D06F3E23131 /* Base */,
+				00DEF4291FBA372500D6DC4B /* de */,
+				00E92B281FBA372700199284 /* nl */,
 			);
-			name = MyPrefixSuppliers.storyboard;
-			path = MyPrefixSuppliers;
-			sourceTree = "<group>";
-		};
-		2B8D94F243AD7CA8F1705969 /* MyPrefixProductCategories.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0875FAAD0B8835195150ACAC /* Base */,
-			);
-			name = MyPrefixProductCategories.storyboard;
-			path = MyPrefixProductCategories;
-			sourceTree = "<group>";
-		};
-		4A17CB406EE28E2791927646 /* MyPrefixStock.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				235256D0341CAEE975CDB6D6 /* Base */,
-			);
-			name = MyPrefixStock.storyboard;
-			path = MyPrefixStock;
-			sourceTree = "<group>";
-		};
-		68B3409E967B9335258A46FE /* MyPrefixPurchaseOrderHeaders.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				771A5E37240C4A8A4709853F /* Base */,
-			);
-			name = MyPrefixPurchaseOrderHeaders.storyboard;
-			path = MyPrefixPurchaseOrderHeaders;
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 		7A1315C31D4B982000A5DA56 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				7A1315C41D4B982000A5DA56 /* Base */,
+				00DEF42C1FBA372500D6DC4B /* de */,
+				00E92B2A1FBA372700199284 /* nl */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		7A243E41C95DF6C9E275D649 /* MyPrefixCustomers.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C8D2DC7136AFCEF5ABBB0012 /* Base */,
-			);
-			name = MyPrefixCustomers.storyboard;
-			path = MyPrefixCustomers;
-			sourceTree = "<group>";
-		};
-		938B394A9579BA6B3E1071CB /* MyPrefixSalesOrderItems.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F57CE247BCC65FEF3D534795 /* Base */,
-			);
-			name = MyPrefixSalesOrderItems.storyboard;
-			path = MyPrefixSalesOrderItems;
-			sourceTree = "<group>";
-		};
-		9ACCE98A6250560394F97805 /* MyPrefixSalesOrderHeaders.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				67D2B106AD55DD179F18406E /* Base */,
-			);
-			name = MyPrefixSalesOrderHeaders.storyboard;
-			path = MyPrefixSalesOrderHeaders;
-			sourceTree = "<group>";
-		};
-		BE56A764018E25E2CB103351 /* MyPrefixPurchaseOrderItems.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6F26E7B24451639050E84559 /* Base */,
-			);
-			name = MyPrefixPurchaseOrderItems.storyboard;
-			path = MyPrefixPurchaseOrderItems;
 			sourceTree = "<group>";
 		};
 		CBCA7A9B1E3778A9001AF49E /* Main.storyboard */ = {
@@ -646,17 +404,10 @@
 			children = (
 				CB909D801E38CA8800218154 /* Base */,
 				CB9BF1FE1E3A01D0004FE213 /* en */,
+				00DEF42B1FBA372500D6DC4B /* de */,
+				00E92B291FBA372700199284 /* nl */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FCA4140A438FAA27A2840440 /* MyPrefixProductTexts.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8FB36CFCF40F070CCA005605 /* Base */,
-			);
-			name = MyPrefixProductTexts.storyboard;
-			path = MyPrefixProductTexts;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -777,7 +528,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2L6XVDFSLV;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -800,7 +551,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2L6XVDFSLV;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
