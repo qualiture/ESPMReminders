@@ -45,7 +45,7 @@ class CustomerViewController: FUIFormTableViewController, SAPFioriLoadingIndicat
         eventStore = EKEventStore()
         eventStore.requestAccess(to: EKEntityType.reminder, completion: {(granted, error) in
             if !granted {
-                print("Access to reminders not granted")
+                self.logger.info("Access to reminders not granted")
             }
         })
         
@@ -129,6 +129,7 @@ class CustomerViewController: FUIFormTableViewController, SAPFioriLoadingIndicat
                 }
             case FUIActivityItem.detail:
                 self.createReminder(customer: customer)
+                break
             default:
                 break
             }
